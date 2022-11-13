@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 250%;
+}
+
+#funcionalidades {
+    border: 1px solid green;
+    padding-bottom: 1%;
+}
+
+#boxDados {
+    border: 1px solid white ;
+}
+
+ol{
+    list-style-type: none;
+    
+}
+
+li{
+    color: white;
+    display:  inline-block;
+    border: 1px solid red;
+    height: 30px;
+    width: 150px;
+    padding-top: 1%;
+    padding-left: 1px;
+}
+
+
