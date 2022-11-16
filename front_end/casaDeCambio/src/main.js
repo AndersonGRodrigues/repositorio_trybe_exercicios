@@ -25,9 +25,10 @@ function createLi(data) {
 }
 // funcionalidade é chamada por button ao event de click.
 function funcionalidade() {
+  guardaDados.innerHTML="";
   tratamentoApi()
     .then(data => {
       createLi(data)
+      guardaDados.removeChild();
     })
-  console.log(guardaDados.childElementCount)
 }
